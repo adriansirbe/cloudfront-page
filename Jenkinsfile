@@ -1,4 +1,4 @@
-node('node'){
+node(){
    stage('git checkout'){
       try {
       git credentialsId: 'git-token', url: 'https://github.com/adriansirbe/cloudfront-page.git/'
